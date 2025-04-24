@@ -89,13 +89,13 @@ const About = () => {
 export default About;
 
 const images1 = [
-    "brandlogo/brand1.svg",
-    "brandlogo/brand2.svg",
-    "brandlogo/brand3.svg",
-    "brandlogo/brand4.svg",
-    "brandlogo/brand5.svg",
-    "brandlogo/brand6.svg",
-    "brandlogo/brand7.svg",
+    "../../assets/brandlogo/brand1.svg",
+    "../../assets/brandlogo/brand2.svg",
+    "../../assets/brandlogo/brand3.svg",
+    "../../assets/brandlogo/brand4.svg",
+    "../../assets/brandlogo/brand5.svg",
+    "../../assets/brandlogo/brand6.svg",
+    "../../assets/brandlogo/brand7.svg",
 ];
 const testimonials = [
     {
