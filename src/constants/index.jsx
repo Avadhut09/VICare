@@ -1,5 +1,5 @@
 const navItems = [
-    { label: "Home", href: "/" },
+    { label: "Home", href: "/home" },
     { label: "Products", href: "/products" }, // create this route if needed
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
