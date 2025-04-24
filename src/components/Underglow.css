@@ -1,0 +1,82 @@
+.underglow {
+  background: white;
+  padding: 16px 24px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01);
+}
+
+.underglow-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.underglow {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(1.05) translateZ(0);
+  filter: blur(20px);
+  background-size: 200% 200%;
+  animation: animateGlow 1.25s linear infinite;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.underglow.teal {
+  background: linear-gradient(
+    to right,
+    rgb(45, 212, 191),
+    rgb(20, 184, 166),
+    rgb(13, 148, 136)
+  );
+}
+
+.underglow::after {
+  position: absolute;
+  content: "";
+  top: 12px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.9) translateZ(0);
+  filter: blur(15px);
+  background: linear-gradient(
+    to right,
+    rgb(187, 247, 208),
+    rgb(74, 222, 128),
+    rgb(34, 197, 94)
+  );
+  background-size: 200% 200%;
+  -webkit-animation: animateGlow 1.25s linear infinite;
+  animation: animateGlow 1.25s linear infinite;
+}
+
+@-webkit-keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+}
