@@ -5,9 +5,10 @@ export default function ContactInfo() {
     const locations = [
         {
             id: 1,
-            name: "Headquarters",
-            address: "123 Energy Way, Power City, PC 12345",
-            phone: "+1 (555) 123-4567",
+            name: "VICare Office",
+            address:
+                "A/201, Building No. 5 , Millenium Park, M.P. Road, Dombivali West 421202",
+            phone: "+91 8048208850",
             email: "info@vicare-tech.com",
         },
         {

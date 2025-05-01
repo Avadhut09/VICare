@@ -30,10 +30,11 @@ export default function LocationMap() {
         {
             id: 1,
             name: "Headquarters",
-            address: "123 Energy Way, Power City, PC 12345",
+            address:
+                "A/201, Building No. 5 , Millenium Park, M.P. Road, Dombivali West 421202",
             phone: "+1 (555) 123-4567",
             email: "info@vicare-tech.com",
-            coordinates: { lat: 40.7128, lng: -74.006 },
+            coordinates: { lat: 19.228417, lng: 73.086639 },
         },
         {
             id: 2,

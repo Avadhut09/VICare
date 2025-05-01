@@ -74,9 +74,9 @@ export default function Footer() {
                     >
                         {[
                             { label: "Home", href: "/" },
-                            { label: "About", href: "/about" },
                             { label: "Services", href: "/services" },
                             { label: "Products", href: "/products" },
+                            { label: "About", href: "/about" },
                             { label: "Contact", href: "/contact" },
                         ].map((item, index) => {
                             const isActive = location.pathname === item.href;

@@ -1,9 +1,9 @@
 const navItems = [
-    { label: "Home", href: "/home" },
-    { label: "Products", href: "/products" }, // create this route if needed
+    { label: "Home", href: "/" },
+    { label: "Products", href: "/products" },
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" }, // create this route if needed
+    { label: "Contact", href: "/contact" },
 ];
 
 // Feature data for Features.jsx
